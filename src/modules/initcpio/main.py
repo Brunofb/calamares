@@ -36,7 +36,7 @@ def run():
     :return:
     """
     root_mount_point = libcalamares.globalstorage.value("rootMountPoint")
-    subprocess.check_call(["cp", "[PFAD ZUR VMLINUZ-DATEI]", root_mount_point + "/home/archbr/Brazuca/archisobr/work/iso/arch/boot/x86_64/vmlinuz-linux"])
+    subprocess.check_call(["cp", "[PFAD ZUR VMLINUZ-DATEI]", root_mount_point + "/run/archiso/bootmnt/arch/boot/x86_64/vmlinuz"])
     run_mkinitcpio()
 
     return None
