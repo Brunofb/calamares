@@ -34,7 +34,7 @@ Presentation
 
         Image {
             id: background
-            source: "squid.png"
+            source: "python.jpg"
             width: 200; height: 200
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -42,11 +42,10 @@ Presentation
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "This is a customizable QML slideshow.<br/>"+
-                  "Distributions should provide their own slideshow and list it in <br/>"+
-                  "their custom branding.desc file.<br/>"+
-                  "To create a Calamares presentation in QML, import calamares.slideshow,<br/>"+
-                  "define a Presentation element with as many Slide elements as needed."
+            text: "Tenha todas as configurações ao alcance de um clique.<br/>"+
+                  "Os scrips do brazuca são escritos em python, sendo assim,<br/>"+
+                  "você agilidade na hora de configurar e total controle.<br/>"+
+                  "do que está sendo feito no seu sistema<br/>."                  
             wrapMode: Text.WordWrap
             width: root.width
             horizontalAlignment: Text.Center
@@ -54,10 +53,24 @@ Presentation
     }
 
     Slide {
-        centeredText: "This is a second Slide element."
+
+        Image {
+            id: background
+            source: "logoarch.png"
+            width: 200; height: 200
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Nosso objetivo é fornecer o arch linux para todos.<br/>"+
+                  "Um arch fácil de instalar e fácil de configurar.<br/>"+
+                  
+            wrapMode: Text.WordWrap
+            width: root.width
+            horizontalAlignment: Text.Center
+        }
     }
 
-    Slide {
-        centeredText: "This is a third Slide element."
-    }
 }

@@ -6,7 +6,7 @@ strings:
     shortProductName:    Brazuca
     version:             1.0 LTS
     shortVersion:        1.0
-    versionedName:       Brazuca GNU/Linux 1.0 LTS "Beta"
+    versionedName:       Brazuca GNU/Linux 1.0 "Beta"
     shortVersionedName:  Brazuca 1.0
     bootloaderEntryName: Brazuca
     productUrl:          http://calamares.io/
