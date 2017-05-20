@@ -1,12 +1,12 @@
 ---
-componentName:  brazuca
+componentName:  Brazuca
 
 strings:
     productName:         Brazuca GNU/Linux
     shortProductName:    Brazuca
     version:             1.0 LTS
     shortVersion:        1.0
-    versionedName:       Brazuca GNU/Linux 1.0 "Beta"
+    versionedName:       Brazuca GNU/Linux 1.0 Beta "Blue"
     shortVersionedName:  Brazuca 1.0
     bootloaderEntryName: Brazuca
     productUrl:          http://calamares.io/
@@ -15,8 +15,8 @@ strings:
     releaseNotesUrl:     http://calamares.io/about/
 
 images:
-    productLogo:         "squid.png"
-    productIcon:         "squid.png"
+    productLogo:         "logoarch.png"
+    productIcon:         "arch_icon.png"
     productWelcome:      "languages.png"
 
 slideshow:               "show.qml"

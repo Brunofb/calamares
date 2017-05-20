@@ -33,9 +33,9 @@ Presentation
     Slide {
 
         Image {
-            id: background
+            id: background1
             source: "python.jpg"
-            width: 200; height: 200
+            width: 230; height: 228
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -55,9 +55,9 @@ Presentation
     Slide {
 
         Image {
-            id: background
+            id: background2
             source: "logoarch.png"
-            width: 200; height: 200
+            width: 383; height: 321
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
