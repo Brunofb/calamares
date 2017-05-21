@@ -24,8 +24,8 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 5000
-        running: false
+        interval: 20000
+        running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
@@ -34,7 +34,7 @@ Presentation
 
         Image {
             id: background1
-            source: "python.jpg"
+            source: "libreoffice.png"
             width: 230; height: 228
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -42,10 +42,7 @@ Presentation
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "Tenha todas as configurações ao alcance de um clique.<br/>"+
-                  "Os scrips do brazuca são escritos em python, sendo assim,<br/>"+
-                  "você agilidade na hora de configurar e total controle.<br/>"+
-                  "do que está sendo feito no seu sistema<br/>."                  
+            text: "No LibreOffice existem ferramentas para tudo o que você precisa.<br/>"+            
             wrapMode: Text.WordWrap
             width: root.width
             horizontalAlignment: Text.Center
@@ -56,16 +53,37 @@ Presentation
 
         Image {
             id: background2
-            source: "logoarch.png"
-            width: 383; height: 321
+            source: "pamac.png"
+            width: 680; height: 453
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "Nosso objetivo é fornecer o arch linux para todos.<br/>"+
-                  "Um arch fácil de instalar e fácil de configurar.<br/>"+
+            text: "Nosso objetivo é fornecer o arch linux pronto<br/>"+
+                  "para qualquer usuário.<br/>"+
+                  "Instale todos os programas que desejar com apenas um clique.<br/>"+
+                  
+            wrapMode: Text.WordWrap
+            width: root.width
+            horizontalAlignment: Text.Center
+        }
+    }
+
+    Slide {
+
+        Image {
+            id: background3
+            source: "update.png"
+            width: 680; height: 496
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Tenha um sistema atualizado através de uma interface simples.<br/>"+
                   
             wrapMode: Text.WordWrap
             width: root.width

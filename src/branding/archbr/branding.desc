@@ -1,14 +1,14 @@
 ---
-componentName:  Brazuca
+componentName:  ArchBR
 
 strings:
-    productName:         Brazuca GNU/Linux
-    shortProductName:    Brazuca
-    version:             1.0 LTS
+    productName:         ArchBR GNU/Linux
+    shortProductName:    ArchBR
+    version:             1.0 Beta
     shortVersion:        1.0
-    versionedName:       Brazuca GNU/Linux 1.0 Beta "Blue"
-    shortVersionedName:  Brazuca 1.0
-    bootloaderEntryName: Brazuca
+    versionedName:       ArchBR GNU/Linux 1.0 "Blue"
+    shortVersionedName:  ArchbR 1.0
+    bootloaderEntryName: ArhBR
     productUrl:          http://calamares.io/
     supportUrl:          http://calamares.io/bugs/
     knownIssuesUrl:      http://calamares.io/about/
